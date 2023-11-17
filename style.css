@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .page{
     margin-right: 5px;
     margin-left: 5px
@@ -30,18 +30,17 @@ table{
 img{
     width: 3.2vw;
     min-width: 1.5rem;
-    max-width: 2rem;
 }
-
 
 th{
     user-select: none;
 }
 
 @media screen and (max-width: 600px) {
-    table{
+    table {
         font-size: 15px;
     }
+
     .center {
         display: flex;
         align-items: center;
@@ -49,55 +48,4 @@ th{
         text-align: center;
         font-size: 30px;
     }
-=======
-.page{
-    margin-right: 5px;
-    margin-left: 5px
-}
-
-table{
-    font-size: 2vw;
-}
-.sort:hover{
-    color: cadetblue;
-    cursor: pointer
-}
-
-.page:hover{
-    cursor: pointer
-}
- table{
-     width: 3.2vw;
-     min-width: 100%;
- }
- .center {
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     text-align: center;
- }
-
-img{
-    width: 3.2vw;
-    min-width: 1.5rem;
-    max-width: 2rem;
-}
-
-
-th{
-    user-select: none;
-}
-
-@media screen and (max-width: 600px) {
-    table{
-        font-size: 15px;
-    }
-    .center {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        font-size: 30px;
-    }
->>>>>>> 476f249 (first commit)
 }
