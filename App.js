@@ -104,3 +104,4 @@ const sortTable = (columnIndex, dataType) => {
     }
     rows.forEach((row) => tbody.appendChild(row));
 }
+//CODE END
