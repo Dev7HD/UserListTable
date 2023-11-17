@@ -25,6 +25,8 @@ table{
      align-items: center;
      flex-direction: column;
      text-align: center;
+     margin: 20px;
+     font-size: 3.5vw;
  }
 
 img{
