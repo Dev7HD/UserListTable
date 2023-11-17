@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="container">
+    <h1 class="center">Users List</h1>
+    <div class="users center">
+        <table class="table-bordered table-striped">
+            <thead>
+                <tr scope="row">
+                    <th>Avatar</th>
+                    <th class="sort" onclick="sortTable(1,'string')" >First Name</th>
+                    <th class="sort"  onclick="sortTable(2,'string')" >Last Name</th>
+                    <th class="sort"  onclick="sortTable(3,'date')" >Birthday</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <footer>
+                <tr>
+                    <th colspan="4" class="text-center">
+                        Pagination
+                        <span class="page" id="1" onclick="dataRow(1)">1</span>
+                        <span class="page" id="2" onclick="dataRow(2)">2</span>
+                        <span class="page" id="3" onclick="dataRow(3)">3</span>
+                    </th>
+                </tr>
+            </footer>
+        </table>
+    </div>
+    <script src="users.js"></script>
+    <script type="text/javascript" src="App.js"></script>
+</div>
+<<<<<<< HEAD
+
+
+=======
+    
+>>>>>>> 476f249 (first commit)
+</body>
+</html>
